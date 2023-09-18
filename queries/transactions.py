@@ -1,5 +1,5 @@
-from main import session
-from models.user import User, Preference
+from models.connect import session
+from models.tables import User
 
 user = User(
     first_name="John",

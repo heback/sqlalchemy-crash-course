@@ -1,5 +1,5 @@
-from main import session
-from models.user import Preference, User
+from models.connect import session
+from models.tables import Preference, User
 
 user_preference = (
     Preference.query

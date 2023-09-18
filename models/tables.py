@@ -5,6 +5,7 @@ from models.base import TimeStampedModel, Model
 
 
 class User(TimeStampedModel):
+ 
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, autoincrement=True)

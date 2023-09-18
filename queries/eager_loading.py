@@ -1,6 +1,6 @@
 from sqlalchemy.orm import joinedload, subqueryload, contains_eager
 
-from models.user import User, Address
+from models.tables import User, Address
 
 users = (
     User.query

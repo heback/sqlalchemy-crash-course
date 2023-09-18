@@ -1,5 +1,5 @@
-from main import session
-from models.user import User, Role, Address, Preference
+from models.connect import session
+from models.tables import User, Role, Address, Preference
 
 admin_role = Role.query.filter(Role.slug == "admin").first()
 

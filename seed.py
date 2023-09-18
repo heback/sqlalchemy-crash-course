@@ -1,5 +1,5 @@
-from main import session
-from models.user import User, Address, Preference, Role
+from models.connect import session
+from models.tables import User, Address, Preference, Role
 
 role_data = [
     {"name": "Administrator", "slug": "admin"},
